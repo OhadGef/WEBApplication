@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iCOOK</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="includes/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body id="index_body">
+		<div id="wrapper">
+			<nav id="mainNav">
+				<ul>
+					<li><a href="#">Recipes</a></li>
+					<li><a href="#">Chefs</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li>
+        				<i id="mag-glass" class="glyphicon glyphicon-search"> </i>
+        				<input type="search" class="nav-search" placeholder=" Search" />
+					</li>
+
+				</ul>
+			</nav>
+			
+			<p id="user">
+					<span class="glyphicon glyphicon-user"> </span>
+ 					 <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal1">Sign In</button>
+				</p>
+				
+				<div class="modal fade" id="myModal1" role="dialog">
+    					<div class="modal-dialog modal-lg">
+      						<div class="modal-content">
+        						<div class="modal-header">
+          							<button type="button" class="close" data-dismiss="modal">&times;</button>
+          							<h1 id="modal-title"> </h1>
+        						</div>
+        						<div id="signIn" class="modal-body">
+         							<section id="modal-b">
+         								<a href="categories.html"><img src="images/shaked.png"></a>
+         								<a href="my recipes.php"><img src="images/francis.png"></a>
+         							</section>
+        						</div>
+        						<div class="modal-footer">
+          							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        						</div>
+      						</div>
+    					</div>
+  					</div>
+				
+			<section id="homeSec">
+				
+				<a href="#" id="logo"> </a>	
+				
+				<div id="byNav">
+  					<ul>
+  						<li><a href="#">Recipes</a></li>
+						<li><a href="#">Chefs</a></li>
+						<li><a href="categories.html">Ingrediants</a></li>
+  					</ul>
+				</div>
+				
+   				<div class="right-inner-addon">
+        			<i class="glyphicon glyphicon-search"> </i>
+        			<input type="search" class="form-control" placeholder="Search Recipe, Chef, Ingrediant" />
+    			</div>
+    			
+				<a href="#" id="about">About Us</a>
+			</section>
+			
+			<div id="mobileNav">
+				<ul>
+					<li><a href="index.html"><i class="material-icons">home</i><span>Home</span></a></li>
+					<li><a href="#"><i class="material-icons">content_paste</i><span class="grocText">Groceries</span></a></li>
+					<li><a href="#"><i class="material-icons">restaurant</i><span>Recipes</span></a></li>
+					<li><a href="#"><i class="material-icons">account_box</i><span>Profile</span></a></li>
+					<li><a href="#"><i class="material-icons">dehaze</i><span>Settings</span></a></li>
+				</ul>
+    	</div>
+			
+		</div>
+	</body>
+</html>

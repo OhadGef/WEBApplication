@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>iCOOK</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="includes/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="includes/style.css">
+	</head>
+	<body id="step1">
+		<div id="wrapper">
+			
+			<div id="mobileHead">
+				<a href="recipes.php" class="backM"> </a>
+				<a href="index.html" class="logoM"> </a>
+				<a href="step-end.html" class="cookM"> </a>
+			</div>
+			
+			<header>
+				<a href="index.html" id="logo1"> </a>
+				<p id="user">
+					<span class="glyphicon glyphicon-user" aria-hidden="true"> </span>
+					<button type="button" class="btn btn-default btn-xs">
+						Shaked
+					</button>
+				</p>
+
+			</header>
+
+			<nav id="mainNav">
+				<ul>
+					<li>
+						<a href="#">Recipes</a>
+					</li>
+					<li>
+						<a href="#">Chefs</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+					<li>
+						<input type="search" class="nav-search" placeholder=" Search" />
+					</li>
+
+				</ul>
+			</nav>
+			<section id="main">
+
+				<section id="steps">
+					<section id="paragraph">
+						<h2>Dates Pie</h2>
+						<img class="food-pic" src="images/cake.png">
+						<h3>step 1</h3>
+						<p>In a large saucepan combine the beets and enough water to cover. Bring to boiling; reduce heat. Cook, covered, about 30 minutes or until tender. Drain and let cool slightly. Under running water, rub off the peels. Halve the beets lengthwise and julienne; set aside. In a medium saucepan bring sugar, the 1/2 cup water, vineger, orange peel, 2 teaspoons salt, and the cracked black pepper to a simmer, stirring to dissolve the sugar. Add the beets, remove from the heat. Let stand for 30 minutes; drain, discarding vinegar mixture.</p>
+						
+					</section>
+					<section id="controls">
+						<a href="recipe.html"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></a>
+						<a href="step-end.html"><img src="images/nextstep.png" id="str-btn"/></a>
+					</section>
+				</section>
+				<section id="pics">
+					<button type="button" class="btn btn-primary  " data-toggle="modal" data-target="#myModal"><img class="pic-style" src="images/0.png">
+					</button>
+					<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal"><img class="pic-style" src="images/1.png">
+					</button>
+					<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal"><img class="pic-style" src="images/2.png">
+					</button>
+					<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal"><img class="pic-style" src="images/3.png">
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="myModalLabel">Dates Pie</h4>
+								</div>
+								<div class="modal-body">
+
+									<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+										</ol>
+
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img class="slide-pic" src="images/0.png" alt="pic0">
+												<div class="carousel-caption"></div>
+											</div>
+											<div class="item">
+												<img class="slide-pic" src="images/1.png" alt="pic1">
+												<div class="carousel-caption"></div>
+											</div>
+											<div class="item">
+												<img class="slide-pic" src="images/2.png" alt="pic2">
+												<div class="carousel-caption"></div>
+											</div>
+											<div class="item">
+												<img class="slide-pic" src="images/3.png" alt="pic3">
+												<div class="carousel-caption"></div>
+											</div>
+
+										</div>
+
+										<!-- Controls -->
+										<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+										<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<div id="num">
+					<hr>
+					<ul  class="pagination">
+						<li>
+							<a class="active" href="step1.html">1</a>
+						</li>
+						<li>
+							<a href="#">2</a>
+						</li>
+						<li>
+							<a href="#">3</a>
+						</li>
+						<li>
+							<a href="#">4</a>
+						</li>
+						<li>
+							<a href="step-end.html">5</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		
+		<div id="mobileNav">
+				<ul>
+					<li><a href="index.html"><i class="material-icons">home</i><span>Home</span></a></li>
+					<li><a href="#"><i class="material-icons">content_paste</i><span class="grocText">Groceries</span></a></li>
+					<li><a href="#"><i class="material-icons">restaurant</i><span>Recipes</span></a></li>
+					<li><a href="#"><i class="material-icons">account_box</i><span>Profile</span></a></li>
+					<li><a href="#"><i class="material-icons">dehaze</i><span>Settings</span></a></li>
+				</ul>
+    	</div>
+		
+		</div>
+	</body>
+
+</html>

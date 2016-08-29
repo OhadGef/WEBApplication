@@ -1,0 +1,110 @@
+{
+	"fruits": [{
+		"name": "Asai"
+	},{
+		"name": "Apple"
+	}, {
+		"name": "Cranberry"
+	}, {
+		"name": "Lemon"
+	}, {
+		"name": "Apricot"
+	}, {
+		"name": "Date"
+	}, {
+		"name": "Mango"
+	}, {
+		"name": "Avocado"
+	}, {
+		"name": "Durian"
+	}, {
+		"name": "Melon"
+	}, {
+		"name": "Banana"
+	}, {
+		"name": "Fig"
+	}, {
+		"name": "Olive"
+	}, {
+		"name": "Blueberry"
+	}, {
+		"name": "Grape"
+	}, {
+		"name": "Orange"
+	}, {
+		"name": "Cherry"
+	}, {
+		"name": "Guava"
+	}, {
+		"name": "Papaya"
+	}, {
+		"name": "Coconut"
+	}, {
+		"name": "Kiwi"
+	}, {
+		"name": "Peach"
+	}],
+	
+	
+	
+	
+	"vegtables": [{
+		"name": "Artichoke"
+	}, {
+		"name": "Arugula"
+	}, {
+		"name": "Asparagus"
+	}, {
+		"name": "Bok choy"
+	}, {
+		"name": "Broccoli"
+	}, {
+		"name": "Brussels sprouts"
+	}, {
+		"name": "Cabbage"
+	}, {
+		"name": "Carrots"
+	}, {
+		"name": "Cauliflower"
+	}, {
+		"name": "Celery"
+	}, {
+		"name": "Chard"
+	}, {
+		"name": "Endive"
+	}, {
+		"name": "Kale"
+	}, {
+		"name": "Lettuce"
+	}, {
+		"name": "Mushrooms"
+	}, {
+		"name": "Okra"
+	}, {
+		"name": "Parsley"
+	}, {
+		"name": "Jalapeño"
+	}, {
+		"name": "Habanero"
+	}, {
+		"name": "Rhubarb"
+	}, {
+		"name": "Beetroot "
+	}, {
+		"name": "Radish"
+	}, {
+		"name": "Spinach"
+	}, {
+		"name": "Tomato"
+	}, {
+		"name": "Tubers"
+	}, {
+		"name": "Water chestnut"
+	}, {
+		"name": "Watercress"
+	}, {
+		"name": "Zucchini"
+	}]
+}
+
+
